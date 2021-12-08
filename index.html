@@ -3,38 +3,34 @@
 <head>
   <meta charset = "UTF-8">
   <title>Science!-Main</title>
-  <style>
-    a {
-      color:black;
-      text-decoration:none;
-    }
-    .saw {
-      color:gray;
-    }
-    h1 {
-      font-size: 45px;
-      text-align: center;
-    }
-  </style>
+  <link rel = "stylesheet" href = "style.css">
 </head>
 <body>
   <h1><a href = "index.html">Science!</a></h1>
-  <img src = "img/science.jpg">
-  <p>
-    Click on the link below to see more about each subject
-  </p>
-  <ul>
-    <li><a href = "physics.html" target = "_blank" class = "saw"><strong>Physics</strong></a></li>
-    <li><a href = "chemistry.html" target = "_blank" class = "saw"><strong>Chemistry</strong></a></li>
-    <li><a href = "biology.html" target = "_blank" class = "saw"><strong>Biology</strong></a></li>
-    <li><a href = "astronomy.html" target = "_blank" class = "saw"><strong>Astronomy</strong></a></li>
-  </ul>
-  <p style="margin-top:40px">
-    <h3>A Quick Introduction to Science!</h3>
-    Science is defined as<br>
-    <i>the intellectual and practical activity encompassing the systematic study of the structure and behaviour of the physical and natural world through observation and experiment</i><br>
-    Because science itself is too broad, people separated the concept into more smaller ones such as physics and chemistry.<br>
-    By studying more into science, we can know more about the world we live in.
-  </p>
+  <div id="Img"><img src = "img/science.jpg"></div>
+
+  <div id = "grid">
+
+    <div id = "navigation">
+      <ul>
+        <li><a href = "physics.html" target = "_blank"><strong>Physics</strong></a></li>
+        <li><a href = "chemistry.html" target = "_blank"><strong>Chemistry</strong></a></li>
+        <li><a href = "biology.html" target = "_blank"><strong>Biology</strong></a></li>
+        <li><a href = "astronomy.html" target = "_blank"><strong>Astronomy</strong></a></li>
+      </ul>
+    </div>
+
+    <div id = "article">
+      <p style="margin-top:40px">
+        <h3>A Quick Introduction to Science!</h3>
+        Science is defined as<br>
+        <i>the intellectual and practical activity encompassing the systematic study of the structure and behaviour of the physical and natural world through observation and experiment</i><br>
+        Because science itself is too broad, people separated the concept into more smaller ones such as physics and chemistry.<br>
+        By studying more into science, we can know more about the world we live in.
+      </p>
+    </div>
+
+  </div>
+
 </body>
 </html>
