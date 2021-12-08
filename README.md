@@ -8,3 +8,6 @@ My Second HTML page!
 
 ### 2021.12.07
 1. Edit font size & color
+
+### 2021.12.08
+1. CSS Grid (Layout of website)
