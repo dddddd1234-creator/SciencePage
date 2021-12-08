@@ -3,26 +3,15 @@
 <head>
   <meta charset = "UTF-8">
   <title>Science!-Physics</title>
-  <style>
-    a {
-      color:black;
-      text-decoration:none;
-    }
-    #active {
-      color:red;
-    }
-    .saw {
-      color:gray;
-    }
-    h1 {
-      font-size: 45px;
-      text-align: center;
-    }
-  </style>
+  <link rel = "stylesheet" href = "style.css">
 </head>
 <body>
   <h1>Physics</h1>
-  <img src = "img/physics.jpg"><br>
+  <div id = "Img"><img src = "img/physics.jpg"></div>
+
+  <div id = "grid">
+
+  <div id = "navigation">
   <a href = "index.html" style = "text-decoration:underline"><strong>Back To Main</strong></a><br>
   <ul>
     <li><a href = "physics.html" target = "_blank" id = "active"><strong>Physics</strong></a></li>
@@ -35,9 +24,12 @@
   <ol>
     <li><a href = "#Introduction">Introduction</a></li>
     <li><a href = "#Mechanics">Mechanics</a></li>
-    <li><a href = "#The Study of Gravitation">The Study of Gravitation</a></li>
-    <li><a href = "#The Study of Heat, Thermodynamics, and Statistical Mechanics">The Study of Heat, Thermodynamics, and Statistical Mechanics</a></li>
+    <li><a href = "#The Study of Gravitation">Gravitation</a></li>
+    <li><a href = "#The Study of Heat, Thermodynamics, and Statistical Mechanics">Heat</a></li>
   </ol>
+  </div>
+
+  <div id = "article">
   <p id = "Introduction" style="margin-top:40px">
     <h3>Introduction</h3>
     Physics, science that deals with the structure of matter and the interactions between the fundamental constituents of the observable universe. In the broadest sense, physics (from the Greek physikos) is concerned with all aspects of nature on both the macroscopic and submicroscopic levels. Its scope of study encompasses not only the behaviour of objects under the action of given forces but also the nature and origin of gravitational, electromagnetic, and nuclear force fields. Its ultimate objective is the formulation of a few comprehensive principles that bring together and explain all such disparate phenomena.<br><br>
@@ -72,5 +64,8 @@
     The science of statistical mechanics derives bulk properties of systems from the mechanical properties of their molecular constituents, assuming molecular chaos and applying the laws of probability. Regarding each possible configuration of the particles as equally likely, the chaotic state (the state of maximum entropy) is so enormously more likely than ordered states that an isolated system will evolve to it, as stated in the second law of thermodynamics. Such reasoning, placed in mathematically precise form, is typical of statistical mechanics, which is capable of deriving the laws of thermodynamics but goes beyond them in describing fluctuations (i.e., temporary departures) from the thermodynamic laws that describe only average behaviour. An example of a fluctuation phenomenon is the random motion of small particles suspended in a fluid, known as Brownian motion.<br><br>
     Quantum statistical mechanics plays a major role in many other modern fields of science, as, for example, in plasma physics (the study of fully ionized gases), in solid-state physics, and in the study of stellar structure. From a microscopic point of view the laws of thermodynamics imply that, whereas the total quantity of energy of any isolated system is constant, what might be called the quality of this energy is degraded as the system moves inexorably, through the operation of the laws of chance, to states of increasing disorder until it finally reaches the state of maximum disorder (maximum entropy), in which all parts of the system are at the same temperature, and none of the state’s energy may be usefully employed. When applied to the universe as a whole, considered as an isolated system, this ultimate chaotic condition has been called the “heat death.”
   </p>
+  </div>
+
+  </div>
 </body>
 </html>
