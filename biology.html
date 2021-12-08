@@ -3,26 +3,14 @@
 <head>
   <meta charset = "UTF-8">
   <title>Science!-Biology</title>
-  <style>
-    a {
-      color:black;
-      text-decoration:none;
-    }
-    #active {
-      color:red;
-    }
-    .saw {
-      color:gray;
-    }
-    h1 {
-      font-size: 45px;
-      text-align: center;
-    }
-  </style>
+  <link rel = "stylesheet" href = "style.css">
 </head>
 <body>
   <h1>Biology</h1>
-  <img src = "img/biology.jpg"><br>
+  <div id = "Img"><img src = "img/biology.jpg"></div>
+
+  <div id = "grid">
+  <div id = "navigation">
   <a href = "index.html" style = "text-decoration:underline"><strong>Back To Main</strong></a>
   <ul>
     <li><a href = "physics.html" target = "_blank" class = "saw"><strong>Physics</strong></a></li>
@@ -36,6 +24,9 @@
     <li><a href = "#Introduction">Introduction</a></li>
     <li><a href = "#Basic Concepts">Basic Concepts of Biology</a></li>
   </ol>
+  </div>
+
+  <div id = "article">
   <p id = "Introduction" style = "margin-top:40px">
     <h3>Introduction</h3>
     biology, study of living things and their vital processes. The field deals with all the physicochemical aspects of life. The modern tendency toward cross-disciplinary research and the unification of scientific knowledge and investigation from different fields has resulted in significant overlap of the field of biology with other scientific disciplines. Modern principles of other fields—chemistry, medicine, and physics, for example—are integrated with those of biology in areas such as biochemistry, biomedicine, and biophysics.<br><br>
@@ -64,5 +55,7 @@
       Taxonomy has been based on two major assumptions: one is that similar body construction can be used as a criterion for a classification grouping; the other is that, in addition to structural similarities, evolutionary and molecular relationships between organisms can be used as a means for determining classification.
     </p>
   </p>
+  </div>
+  </div>
 </body>
 </html>
